@@ -1,0 +1,35 @@
+{
+    "code": 200,
+    "msg": "数据获取成功",
+    "api_version": "v1",
+    "api_name": "/api/v1/all",
+    "total": 47504,
+    "data": [
+        {
+            "goods_id": "531370952585", //商品ID string
+            "goods_pic": "http://img.alicdn.com/imgextra/i1/2820405477/TB24cCmzOpnpuFjSZFIXXXh2VXa_!!2820405477.jpg", //商品主图 string
+            "goods_long_pic": "http://acdn.taokezhushou.com/goodspic/51bbfc401f7965694b4aab75d36fdced_2017070153437.jpg",  //商品推广长图 string
+            "goods_title": "夏季男士帆布鞋男鞋韩版潮流学生板鞋男潮鞋低帮透气休闲布鞋子",  //商品标题 string
+            "goods_short_title": "夏季透气运动休闲鞋男士板鞋男夏",  //商品短标题 string
+            "goods_intro": "【正品保证】经典板鞋，时尚百搭，个性潮流，男神优选.送运费险",  //商品文案 string
+            "goods_cate_id": 8,  //商品分类 int 1女装 2男装 3内衣 4数码家电 5美食 6美妆个护 7母婴 8鞋包配饰 9家居家装 10文体车品 11其他
+            "goods_price": "49.90",  //商品原价 float
+            "goods_sale_num": 8,  //商品销量 int
+            "commission_rate": 20,  //商品佣金 float
+            "seller_id": "2820405477",  //店铺ID string
+            "coupon_id": "729feee75eb04122b13cd229919ef02d",  //优惠劵ID string （tip：阿里券的券id不可用）
+            "coupon_apply_amount": "40.00",  //优惠劵满   float
+            "coupon_amount": "20.00",  //优惠劵减 float
+            "coupon_start_time": "2017-11-06 17:41:41",  //优惠劵开始时间 string
+            "coupon_end_time": "2017-12-30 00:00:00",  //优惠劵结束时间    string
+            "is_tmall": 0,  //是否是天猫 int  0 否  1 是
+            "juhuasuan": 0,  //是否取聚划算 int  0 否  1 是
+            "taoqianggou": 0,  //是否取淘抢购 int  0 否  1 是
+            "yunfeixian": 0,  //是否运费险 int  0 否  1 是
+            "jinpai": 0,  //是否金牌卖家 int  0 否  1 是
+            "jiyoujia": 0,  //是否极有家商品 int  0 否  1 是
+            "haitao": 0,  //是否海淘商品 int  0 否  1 是
+            "dsr": 4.4  //DSR描述评分 float
+        }
+    ]
+}
